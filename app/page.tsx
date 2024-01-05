@@ -8,29 +8,29 @@ import Footer from "@/layout/footer";
 export default function () {
 	return (
 		<main>
-			<div className="h-[1000px] bg-[#0D2240]">
+			<div className="h-screen min-h-[500px] bg-[#0D2240]">
 				<div className="container mx-auto">
 					<div className="flex justify-between items-center px-6 py-4 mb-20">
 						<MenuIcon />
 						<HomeLogo />
 						<TiktokIcon />
 					</div>
-					<div className="mx-auto text-center">
-						<p className="xl:leading-[140px] xl:text-[120px] lg:leading-[120px] lg:text-[110px] md:leading-[100px] md:text-[80px] sm:leading-[80px] sm:text-[60px] leading-[50px] text-[40px] text-white font-black not-italic text-nowrap hometypo mb-10">
+					<div className="mx-auto text-center text-white">
+						<p className="xl:leading-[140px] xl:text-[120px] lg:leading-[120px] lg:text-[110px] md:leading-[100px] md:text-[80px] sm:leading-[80px] sm:text-[60px] text-5xl font-black text-nowrap hometypo mb-10">
 							Birthday Energy
 							<br />
 							Meets Pro Sports
 						</p>
-						<p className="text-white font-light xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl mb-14">
+						<p className="font-light xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl mb-14">
 							1,377 BDAY CARDS & COUNTING
 						</p>
-						<div className="relative w-[710px] inline-block">
+						<div className="relative inline-block w-10/12 max-w-[710px]">
 							<input
 								type="text"
 								placeholder="Search Bday Stats"
-								className="h-[104px] rounded-lg pl-9 pr-32 text-[40px]"
+								className="w-full rounded-lg xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-base xl:py-8 lg:py-7 md:py-6 sm:py-5 py-4 xl:pl-9 lg:pl-8 md:pl-7 sm:pl-6 pl-5 xl:pr-32 lg:pr-28 md:pr-24 sm:pr-20 pr-16 text-gray-700"
 							/>
-							<div className="w-[120px] h-full rounded-lg bg-[#E42D1E] absolute right-0 top-0 grid place-items-center">
+							<div className="xl:w-[120px] lg:w-[104px] md:w-[88px] sm:w-[72px] w-[56px] h-full rounded-lg bg-[#E42D1E] absolute right-0 top-0 grid place-items-center">
 								<ArrowRight size={40} strokeWidth={4} color="#fff" />
 							</div>
 						</div>
